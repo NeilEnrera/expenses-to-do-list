@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 320px; /* Adjusted container size */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 70px;
+    background-image: url(background.jpg);
+}
+
+.input-container {
+    margin-bottom: 10px;
+}
+
+.input-container input {
+    width: calc(100% - 40px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 10px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.fa-check, .fa-trash {
+    cursor: pointer;
+    color: #888;
+    transition: color 0.3s ease;
+}
+
+.fa-check:hover, .fa-trash:hover {
+    color: #333;
+}
+
+.checked {
+    text-decoration: line-through;
+    color: #888;
+}
+
+#total {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+
+button {
+        padding: 8px 20px; /* Adjusted padding for button */
+        border: none;
+        border-radius: 5px;
+        background-color: #007bff;
+        color: #fff;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin: auto; /* Center the button horizontally */
+        display: block; /* Ensure button takes up full width of container */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
